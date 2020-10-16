@@ -10,6 +10,9 @@ class Me:
     def play (self, game):
         print('{} play {}'.format(self.ign, game))
 
+    def Sleep (self, sleepTime):
+        print('I sleep for {} hours'.format(sleepTime))
+
 
 if __name__ == "__main__":
     me = Me('Max', 'M4XeXP')
