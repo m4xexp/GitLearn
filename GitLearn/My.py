@@ -13,6 +13,8 @@ class Me:
     def Sleep (self, sleepTime):
         print('I sleep for {} hours'.format(sleepTime))
 
+    def wakeup (self, awakeTime):
+        print("I wakeup at {} o'clock".format(awakeTime))
 
 if __name__ == "__main__":
     me = Me('Max', 'M4XeXP')
